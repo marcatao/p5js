@@ -39,7 +39,7 @@ function preload(){
 
 function setup() {
  
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(800, 600);
     //mySound.setVolume(0.5);
     //mySound.play();
 
