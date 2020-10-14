@@ -12,5 +12,6 @@ class Nave {
         if(this.nave.position.x  > val) this.nave.changeAnimation("nave_para_esquerda");
         if(this.nave.position.x  < val) this.nave.changeAnimation("nave_para_direita");
         this.nave.position.x = val;
+ 
     }
 }
